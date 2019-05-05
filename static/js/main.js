@@ -78,7 +78,7 @@ jQuery(function($){
     }
   }
 
-  restore_items(fields);
+  //restore_items(fields);
 
   function parse_xterm_style() {
     var text = $('.xterm-helpers style').text();
@@ -480,7 +480,7 @@ jQuery(function($){
     enable_file_inputs(inputs);
 
     function ajax_post() {
-      store_items(fields, data);
+      //store_items(fields, data);
 
       status.text('');
       btn.prop('disabled', true);
